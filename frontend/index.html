@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DonationNFT Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.3.0/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>DonationNFT Marketplace</h1>
+
+        <button id="connectWallet" onclick="connectMetaMask()">Connect MetaMask</button>
+        <p id="walletAddress">Not Connected</p>
+
+        <div class="section">
+            <h2>Mint NFT</h2>
+            <input type="text" id="tokenURI" placeholder="Enter Token URI">
+            <button onclick="mintNFT()">Mint NFT</button>
+        </div>
+
+        <div class="section">
+            <h2>List NFT for Sale</h2>
+            <input type="number" id="tokenIdList" placeholder="Token ID">
+            <input type="number" id="nftPrice" placeholder="Price (ETH)">
+            <button onclick="listNFT()">List NFT</button>
+        </div>
+
+        <div class="section">
+            <h2>Buy NFT</h2>
+            <input type="number" id="tokenIdBuy" placeholder="Token ID">
+            <button onclick="buyNFT()">Buy NFT</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.3.0/web3.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
