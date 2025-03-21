@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2a2a3a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: #00c8ff;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #333344;
+    border-radius: 8px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #00c8ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0099cc;
+}
+
+#connectWallet {
+    background: #ff8c00;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#walletAddress {
+    font-size: 14px;
+    color: #ccc;
+}
